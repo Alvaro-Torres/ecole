@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+}
+
+.main{
+    margin: auto;
+    min-width: 500px;
+    max-width: 1000px;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+.headerLayout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.headerLayout a {
+    text-decoration: none;
+    color: black;
+    padding: 4px 20px 4px 20px; /*top right bottom left */
+    border-radius: 6px;
+    margin:auto;
+}
+
+.headerLayout a:hover{
+    color:white;
+    background-color: black;
+}
+
+.headerLayout a:active {
+    background-color: gray;
+}
+
+.headerLayout .selected {
+    background-color:lightgray;
+}
+
+.content {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
+}
+
+.intro {
+    display:flex;
+    border-radius: 6px;
+    border: 1px solid grey;
+    padding: 5px;
+    float: right;
+    width: 50%;
+}
+
+.bienvenue {
+    margin:auto;
+    text-align: center;
+}
+
+.titre {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.image {
+    border-radius: 6px;
+    width: 400px;
+    height: 200px;
+}
+
+.image2 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.imagelogos {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    border-radius: 6px;
+}
+
+.imagefondnoir {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: grey;
+    border-radius: 6px;
+}
+
+.photo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.paragraphe {
+    display:flex;
+    border-radius: 6px;
+    border: 1px solid grey;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.video {
+    margin:auto;
+    width: 700px; 
+    height: 315px;
+    display: flex;
+    align-items: center;
+}
+
+.phrase {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
