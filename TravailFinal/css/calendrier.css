@@ -1,0 +1,26 @@
+/* todo */
+
+.main {
+    color: white;
+}
+
+.calendarContainer {
+    margin:auto;
+    display: flex;
+}
+
+.title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+}
+
+.months {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
